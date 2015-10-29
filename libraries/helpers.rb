@@ -179,6 +179,11 @@ module ChefIngredientCookbook
           'ctl-command'  => nil,
           'config-file'  => nil
         },
+        'chef-compliance' => {
+          'package-name' => 'chef-compliance',
+          'ctl-command'  => 'chef-compliance-ctl',
+          'config-file'  => '/etc/chef-compliance/chef-compliance.rb'
+        },
         'chef-ha' => {
           'package-name' => 'chef-ha',
           'ctl-command'  => nil,
